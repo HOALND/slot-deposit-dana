@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle lagilagibosku",
+        "command": "lagilagibosku:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "lagilagibosku",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "lagilagibosku:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
